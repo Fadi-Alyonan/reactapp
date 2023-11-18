@@ -9,7 +9,7 @@ function ArticleNews() {
     
 
     const handleArticleClick = (articleId) => {
-        setSelectedArticle(articleId)
+        articles(articleId)
       };
   return (
     <>
